@@ -4,3 +4,8 @@
 
 indent() { sed 's/^/  /'; }
 banner_indent() { sed 's/^/            /'; }
+
+echo -e "\n$(tput setaf 2)+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+" | banner_indent
+echo -e "$(tput setaf 2)+         $(tput setaf 7)Script By : $(tput setaf 2)Aditya Hajare $(tput setaf 5)<aditya43@gmail.com>             $(tput setaf 2)+" | banner_indent
+echo -e "$(tput setaf 2)+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+\n" | banner_indent
+
