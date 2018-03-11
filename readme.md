@@ -1,5 +1,4 @@
 ## About This Project
-
 Bash script to automate the process of creating new dev website under Linux environment. The script will automatically do the following :
 - Create non-ssl entry for the `website.domain` virtual host under apache.
 - Create ssl entry for the `website.domain` virtual host under apache.
@@ -7,15 +6,36 @@ Bash script to automate the process of creating new dev website under Linux envi
 - Create directories for SSL certificates under `~/$MY_CERTIFICATES_PATH/$WEBSITE`.
 - Generate self-signed ssl certificates.
 - Add self-signed certificates to `ca-certificates` database.
-- Update local ca certificates database.
+- Update local `ca certificates` database.
 - Add ssl certificate to Google Chrome's trusted root authority using `certutils`.
 - Enable non-ssl and ssl virtual hosts under apache.
 - Restart apache.
 
-## Current Status
+## Prerequisites
+Following is the list of prerequisites :
+- Apache.
+- Google Chrome.
+- `OpenSSL 1.1.0g  2 Nov 2017` or above.
+- `certutils`.
 
+## How To
+1. Edit `adi_new_site.sh` and set the following variables :
+```
+WEBSITE="adiinviter"
+WEBSITE_DOMAIN="dev"
+EMAIL="aditya43@gmail.com"
+MY_CERTIFICATES_PATH="/home/aditya/myCA"
+WEBSITE_PROJECTS_PATH="/var/www/public_html/laravel"
+```
+2. Open Terminal.
+3. Run `bash /path/to/adi_new_site.sh`.
+4. Follow the on-screen instructions.
+
+## Current Status
 WIP (Work In Progress)!
 
-## License
+## Contact
+Comments and feedbacks are welcome. [Drop a line to Aditya Hajare](http://www.adiinviter.com/support) via AdiInviter Pro's support form.
 
-Open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## License
+This code is free to use under the terms of [MIT license](http://opensource.org/licenses/MIT).
