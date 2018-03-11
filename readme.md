@@ -1,5 +1,12 @@
 ## About This Project
-Bash script to automate the process of creating new dev website under Linux environment. The script will automatically do the following :
+Bash script to automate the process of creating new dev website under Linux environment.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/aditya43/auto-dev-site-linux/master/screens/screen.gif" alt="Bash script to automate the process of creating new dev website with SSL certificates and more (Linux).">
+</p>
+
+## What It Does?
+The script will automatically do the following :
 - Create non-ssl entry for the `website.domain` virtual host under apache.
 - Create ssl entry for the `website.domain` virtual host under apache.
 - Auto edit `/etc/hots` and append the entry for : `127.0.0.1      website.domain`.
@@ -10,6 +17,11 @@ Bash script to automate the process of creating new dev website under Linux envi
 - Add ssl certificate to Google Chrome's trusted root authority using `certutils`.
 - Enable non-ssl and ssl virtual hosts under apache.
 - Restart apache.
+
+## Tested On
+- Ubuntu 17.x
+- Ubuntu 16.x
+- Ubuntu 14.x
 
 ## Prerequisites
 Following is the list of prerequisites :
