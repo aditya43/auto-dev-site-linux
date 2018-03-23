@@ -43,9 +43,6 @@ WEBSITE_PROJECTS_PATH="/var/www/public_html/laravel"
 3. Run `bash /path/to/adi_new_site.sh`.
 4. Follow the on-screen instructions.
 
-## Current Status
-WIP (Work In Progress)!
-
 ## Contact
 Comments and feedbacks are welcome. [Drop a line to Aditya Hajare](http://www.adiinviter.com/support) via AdiInviter Pro's support form.
 
