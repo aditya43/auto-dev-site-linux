@@ -24,8 +24,6 @@ The script will automatically do the following :
 - Ubuntu 18.x
 - Ubuntu 17.x
 - Ubuntu 16.x
-- Ubuntu 15.x
-- Ubuntu 14.x
 
 ## Prerequisites
 Following is the list of prerequisites :
