@@ -19,8 +19,12 @@ The script will automatically do the following :
 - Restart apache.
 
 ## Tested On
+- Ubuntu 20.x
+- Ubuntu 19.x
+- Ubuntu 18.x
 - Ubuntu 17.x
 - Ubuntu 16.x
+- Ubuntu 15.x
 - Ubuntu 14.x
 
 ## Prerequisites
