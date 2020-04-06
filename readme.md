@@ -5,6 +5,15 @@ Bash script to automate the process of creating new dev website under Linux envi
 <img src="https://raw.githubusercontent.com/aditya43/auto-dev-site-linux/master/screens/screen.gif" alt="Bash script to automate the process of creating new dev website with SSL certificates and more (Linux).">
 </p>
 
+## Author
+Aditya Hajare ([Linkedin](https://in.linkedin.com/in/aditya-hajare)).
+
+## Current Status
+Done!
+
+## License
+Open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
 ## What It Does?
 The script will automatically do the following :
 - Create non-ssl entry for the `website.domain` virtual host under apache.
@@ -44,9 +53,3 @@ WEBSITE_PROJECTS_PATH="/var/www/public_html/laravel"
 2. Open Terminal.
 3. Run `bash /path/to/adi_new_site.sh`.
 4. Follow the on-screen instructions.
-
-## Contact
-Comments and feedbacks are welcome. [Drop a line to Aditya Hajare](http://www.adiinviter.com/support) via AdiInviter Pro's support form.
-
-## License
-This code is free to use under the terms of [MIT license](http://opensource.org/licenses/MIT).
